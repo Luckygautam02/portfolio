@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio • Lucky Gautam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="nav" role="banner">
+      <div class="container nav-inner">
+        <a href="#home" class="brand">
+          <span class="brand-mark">LU</span>
+          <span class="brand-name">Lucky Gautam</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open menu"
+          aria-controls="primaryMenu"
+          aria-expanded="false"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <nav class="menu" id="primaryMenu" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#work">Work</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact" class="cta">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Hi there,</div>
+          <h1 class="title">I'm <span class="accent">Lucky</span> Gautam</h1>
+          <p class="subtitle">
+            I am into <strong>Server/Client Side Scripting</strong> — building
+            sleek UIs and fast, secure backends.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="#about"
+              ><i class="fa-solid fa-user"></i> About Me</a
+            >
+            <a class="btn" href="#work"
+              ><i class="fa-solid fa-briefcase"></i> View Work</a
+            >
+          </div>
+          <div class="social" aria-label="social links">
+            <!-- Replace # with your profiles -->
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="#" aria-label="GitHub"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#" aria-label="Twitter"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="avatar">
+          <div class="glow" aria-hidden="true"></div>
+          <div class="photo">
+            <!-- Replace the src below with your own image URL -->
+            <img src="lucky_11zon.jpg" alt="Your portrait" />
+          </div>
+          <div class="badge">
+            <i class="fa-solid fa-code"></i> Full-Stack Dev
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p class="section-muted">
+          Write a short paragraph about who you are, what you do, and what
+          you're looking for. Keep it friendly and specific.
+        </p>
+        <div class="cards grid-2">
+          <article class="card">
+            <h4>About Me</h4>
+            <p>
+              I'm a passionate developer focused on building delightful user
+              experiences and robust systems. I enjoy TypeScript, Node.js,
+              Python, and modern CSS. Outside of work, you'll find me exploring
+              the mountains or sketching UI ideas.
+            </p>
+          </article>
+          <article class="card">
+            <h4>Details</h4>
+            <p>
+              <strong>Location:</strong> Hapur, Uttar Pradesh India<br />
+              <strong>Email:</strong> Luckygautam935@gmail.com<br />
+              <strong>Phone:</strong> +91-80773 75732
+            </p>
+            <a class="btn" href="#contact"
+              ><i class="fa-solid fa-paper-plane"></i> Get in touch</a
+            >
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-muted">List your core technical & soft skills.</p>
+        <div class="cards grid-3">
+          <div class="card">
+            <h4>Frontend</h4>
+            <p>HTML5, CSS3, Tailwind, React, Express.js</p>
+          </div>
+          <div class="card">
+            <h4>Backend</h4>
+            <p>Node.js, Express, Python, Django, REST APIs</p>
+          </div>
+          <div class="card">
+            <h4>Tools</h4>
+            <p>Git & GitHub, VS Code, Ms Office</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="cards">
+          <div class="card">
+            <h4>Degree / Program — University Name</h4>
+            <p class="section-muted">2019 – 2023 • GPA 8.7/10</p>
+            <p>
+              Brief achievements or coursework highlights: Data Structures, Web
+              Technologies, Databases, Cloud.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK / PROJECTS -->
+    <section id="work">
+      <div class="container">
+        <h2 class="section-title">Work & Projects</h2>
+        <p class="section-muted">Showcase a few impactful projects.</p>
+        <div class="cards grid-3">
+          <article class="card">
+            <h4>Project One</h4>
+            <p>Short description of what it does and what problem it solves.</p>
+            <a class="btn" href="#" target="_blank" rel="noreferrer">View</a>
+          </article>
+          <article class="card">
+            <h4>Project Two</h4>
+            <p>Stack used, your role, and outcome/metrics if any.</p>
+            <a class="btn" href="#" target="_blank" rel="noreferrer">View</a>
+          </article>
+          <article class="card">
+            <h4>Project Three</h4>
+            <p>Link to repo or live demo. Add screenshots if you like.</p>
+            <a class="btn" href="#" target="_blank" rel="noreferrer">View</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="cards">
+          <article class="card">
+            <h4>Company • Role</h4>
+            <p class="section-muted">Jan 2024 – Present • City, Country</p>
+            <ul>
+              <li>Delivered X feature that improved Y by Z%.</li>
+              <li>
+                Collaborated with A, B, and C to ship production-ready code.
+              </li>
+              <li>Maintained CI/CD pipelines and observability.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-muted">
+          Reach out for work, collaboration, or just to say hi!
+        </p>
+        <div class="cards grid-2">
+          <article class="card">
+            <h4>Message Me</h4>
+            <form
+              id="contactForm"
+              action="mailto:you@example.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <div class="form-grid">
+                <input required name="name" placeholder="Your Name" />
+                <input required type="email" name="email" placeholder="Email" />
+              </div>
+              <textarea
+                required
+                name="message"
+                rows="5"
+                placeholder="Your message"
+              ></textarea>
+              <div class="cta-row">
+                <button class="btn primary" type="submit">
+                  <i class="fa-solid fa-paper-plane"></i> Send
+                </button>
+              </div>
+            </form>
+          </article>
+          <article class="card">
+            <h4>Contact Info</h4>
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              Luckygautam935@gmail.com<br />
+              <i class="fa-solid fa-phone"></i> +91-80773 75732<br />
+              <i class="fa-solid fa-location-dot"></i> Hapur Uttar Pradesh,
+              India
+            </p>
+            <p>Prefer email? I'll usually reply within 24 hours.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand" style="margin-bottom: 8px">
+            <span class="brand-mark">LU</span>
+            <span class="brand-name">Lucky Gautam</span>
+          </div>
+          <p class="muted">
+            A minimalist portfolio template. Tweak colors, text, and cards to
+            make it yours.
+          </p>
+        </div>
+        <div>
+          <div class="footer-title">Quick Links</div>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <div class="footer-title">Contact</div>
+          <a href="mailto:you@example.com">Luckygautam935@gmail.com</a>
+          <a href="tel:+910000000000">+91-80773 75732</a>
+          <a href="#">Hapur Uttar Pradesh, India</a>
+        </div>
+      </div>
+      <div class="credits">
+        © <span id="year"></span> Lucky Gautam. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
